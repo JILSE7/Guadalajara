@@ -1,0 +1,10 @@
+@import './header';
+body {
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+    font-family: $oswald;
+}
