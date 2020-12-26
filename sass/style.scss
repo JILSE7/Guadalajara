@@ -1,4 +1,6 @@
 @import './header';
+@import './seccion';
+@import './conferencias';
 body {
     box-sizing: border-box;
     background-color: #f2f2f2;
@@ -7,4 +9,9 @@ body {
 
 h2 {
     font-family: $oswald;
+}
+
+.contenedor {
+    width: 90%;
+    margin: 0 auto;
 }

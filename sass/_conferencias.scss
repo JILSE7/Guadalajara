@@ -1,0 +1,72 @@
+@import '../sass/variables';
+@import '../sass/responsive';
+#video {
+    position: relative;
+    height: 540px;
+    .contenedor-video {
+        width: 100%;
+        overflow-x: hidden;
+    }
+}
+
+#programa {
+    position: absolute;
+    top: 0;
+    left: 4%;
+    width: 40%;
+    padding: 5px;
+    margin-top: 120px;
+    .programa-evento {
+        background-color: rgba(255, 255, 255, 0.597);
+        box-shadow: 1px 1px 5px black;
+        padding: 10px 0;
+        .menu-programa {
+            border-bottom: 1px solid $naranja;
+            margin-bottom: 20px;
+            ul {
+                padding: 0;
+                margin: 0;
+                display: flex;
+                list-style: none;
+                justify-content: space-around;
+                li {
+                    a {
+                        font-family: $oswald;
+                        text-decoration: none;
+                        color: black;
+                        transition: all 300ms;
+                        &:hover {
+                            i {
+                                color: black;
+                            }
+                        }
+                    }
+                    i {
+                        color: $naranja;
+                        font-size: 20px;
+                        margin-right: 5px;
+                    }
+                }
+            }
+        }
+        .info-curso {
+            display: flex;
+            flex-flow: column nowrap;
+            padding: 10px;
+            .detalle-evento {
+                h3 {
+                    color: $naranja;
+                }
+                p {
+                    font-weight: bold;
+                }
+                i {
+                    color: $naranja;
+                }
+            }
+            button {
+                align-self: flex-end;
+            }
+        }
+    }
+}

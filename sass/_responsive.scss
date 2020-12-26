@@ -75,6 +75,14 @@
                 }
             }
         }
+        #programa {
+            width: 50%;
+        }
+        .detalle-evento {
+            h3 {
+                font-size: 24px !important;
+            }
+        }
     }
 }
 
@@ -119,6 +127,16 @@
                     margin-top: 25px;
                     margin-left: 40px;
                 }
+            }
+        }
+        #programa {
+            width: 95%;
+            .detalle-evento {
+                p {}
+            }
+            button {
+                display: block;
+                margin: 0 right;
             }
         }
     }
