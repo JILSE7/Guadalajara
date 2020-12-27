@@ -2,3 +2,15 @@ $prueba: 1px solid black;
 $naranja: #fe4918;
 $oswald:'Oswald',
 sans-serif;
+$open: 'Open Sans',
+sans-serif;
+
+/*HERENCIAS*/
+
+%NUMERO {
+    margin: 0;
+    padding: 0;
+    color: $naranja !important;
+    text-align: center;
+    font-size: 4em;
+}

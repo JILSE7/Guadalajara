@@ -1,0 +1,35 @@
+@import '../sass/variables';
+@import '../sass/responsive';
+#contador {
+    background-image: url(../img/bg-resumen-editado.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 780px;
+    width: 100%;
+    .contenedor {
+        display: flex;
+        justify-content: center;
+        height: 100%;
+        .resumen-evento {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-flow: row wrap;
+            flex-grow: 1;
+            width: 50%;
+            height: 100%;
+            overflow: hidden;
+            li {
+                list-style: none;
+                color: white;
+                font-family: $oswald;
+                font-size: 2em;
+                text-align: center;
+                .numero {
+                    @extend %NUMERO;
+                }
+            }
+        }
+    }
+}

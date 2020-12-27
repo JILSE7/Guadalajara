@@ -1,0 +1,63 @@
+@import '../sass/variables';
+@import '../sass/responsive';
+.precios {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    #tarjeta-precios {
+        text-align: center;
+        font-family: $oswald h5 {
+            color: $naranja;
+        }
+        h6 {
+            @extend %NUMERO;
+            font-size: 3EM;
+        }
+        p {
+            text-align: center;
+        }
+        i {
+            color: rgb(6, 201, 6);
+            padding-right: 3px;
+        }
+    }
+    #t1,
+    #t3 {
+        margin-top: 20px;
+        height: 300px;
+        box-shadow: 3px 5px 3px gray;
+        transition: all 300ms ease-in-out;
+        &:hover {
+            transform: scale(1.1);
+            box-shadow: 10px 5px 5px gray;
+        }
+        a {
+            border: 1px solid $naranja;
+            background-color: none;
+            color: $naranja;
+            &:hover {
+                background-color: $naranja;
+                color: white;
+            }
+        }
+    }
+    #t2 {
+        border: 1px solid $naranja;
+        height: 335px;
+        line-height: 30px;
+        box-shadow: 3px 5px 3px gray;
+        transition: all 300ms;
+        &:hover {
+            transform: scale(1.1);
+            box-shadow: 10px 5px 5px gray;
+        }
+        a {
+            background-color: $naranja;
+            color: white;
+            &:hover {
+                background-color: white;
+                color: $naranja;
+                border: 1px solid $naranja;
+            }
+        }
+    }
+}

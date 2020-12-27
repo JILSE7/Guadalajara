@@ -1,0 +1,9 @@
+@import '../sass/variables';
+@import '../sass/responsive';
+#localizacion {
+    width: 100%;
+    .mapa {
+        width: 100%;
+        margin: 0 auto;
+    }
+}

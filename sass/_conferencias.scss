@@ -2,7 +2,6 @@
 @import '../sass/responsive';
 #video {
     position: relative;
-    height: 540px;
     .contenedor-video {
         width: 100%;
         overflow-x: hidden;
@@ -54,18 +53,31 @@
             flex-flow: column nowrap;
             padding: 10px;
             .detalle-evento {
+                border-bottom: 1px solid black;
                 h3 {
                     color: $naranja;
+                    padding: 10px 0 0 20px;
                 }
                 p {
                     font-weight: bold;
+                    padding: 10px 0 0 40px;
                 }
                 i {
                     color: $naranja;
+                    margin-right: 5px;
+                }
+                &:nth-child(2) {
+                    border: none;
                 }
             }
             button {
                 align-self: flex-end;
+                font-family: $oswald;
+                &:hover {
+                    background-color: white;
+                    color: $naranja;
+                    border: 1px solid $naranja;
+                }
             }
         }
     }
