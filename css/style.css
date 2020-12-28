@@ -1,10 +1,25 @@
+@charset "UTF-8";
 /*HERENCIAS*/
+#newsletter h1, .hero .contenido-header .informacion-evento h1 {
+  font-family: "PT Sans", sans-serif;
+  font-size: 7.9vw;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
 .precios #tarjeta-precios h6, #contador .contenedor .resumen-evento li .numero {
   margin: 0;
   padding: 0;
   color: #fe4918 !important;
   text-align: center;
   font-size: 4em;
+}
+
+#newsletter, #contador {
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  width: 100%;
 }
 
 @media (max-width: 1000px) {
@@ -43,6 +58,15 @@
     row-gap: 20px;
   }
   body #precio #t3 {
+    grid-column: 1/3;
+    grid-row: 2/3;
+  }
+  body .testimoniales {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 10px;
+  }
+  body .testimoniales .ultimo {
     grid-column: 1/3;
     grid-row: 2/3;
   }
@@ -92,6 +116,20 @@
   body #precio #t3 {
     grid-column: 1/2;
     grid-row: 3/4;
+  }
+  body .testimoniales {
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: 1fr;
+    row-gap: 30px;
+  }
+  body .testimoniales .ultimo {
+    grid-row: 3/4;
+  }
+  body .testimoniales .primero {
+    grid-row: 1/2;
+  }
+  body .testimoniales .segundo {
+    grid-row: 2/3;
   }
 }
 @media (max-width: 600px) {
@@ -187,12 +225,6 @@
   justify-content: space-between;
   margin-top: 50px;
 }
-.hero .contenido-header .informacion-evento h1 {
-  font-family: "PT Sans", sans-serif;
-  font-size: 7.9vw;
-  text-transform: uppercase;
-  font-weight: bold;
-}
 .hero .contenido-header .informacion-evento .slogan {
   text-transform: none;
   padding-bottom: 3px;
@@ -279,12 +311,26 @@
 }
 
 /*HERENCIAS*/
+#newsletter h1, .hero .contenido-header .informacion-evento h1 {
+  font-family: "PT Sans", sans-serif;
+  font-size: 7.9vw;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
 .precios #tarjeta-precios h6, #contador .contenedor .resumen-evento li .numero {
   margin: 0;
   padding: 0;
   color: #fe4918 !important;
   text-align: center;
   font-size: 4em;
+}
+
+#newsletter, #contador {
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  width: 100%;
 }
 
 @media (max-width: 1000px) {
@@ -323,6 +369,15 @@
     row-gap: 20px;
   }
   body #precio #t3 {
+    grid-column: 1/3;
+    grid-row: 2/3;
+  }
+  body .testimoniales {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 10px;
+  }
+  body .testimoniales .ultimo {
     grid-column: 1/3;
     grid-row: 2/3;
   }
@@ -372,6 +427,20 @@
   body #precio #t3 {
     grid-column: 1/2;
     grid-row: 3/4;
+  }
+  body .testimoniales {
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: 1fr;
+    row-gap: 30px;
+  }
+  body .testimoniales .ultimo {
+    grid-row: 3/4;
+  }
+  body .testimoniales .primero {
+    grid-row: 1/2;
+  }
+  body .testimoniales .segundo {
+    grid-row: 2/3;
   }
 }
 @media (max-width: 600px) {
@@ -446,12 +515,26 @@ p {
 }
 
 /*HERENCIAS*/
+#newsletter h1, .hero .contenido-header .informacion-evento h1 {
+  font-family: "PT Sans", sans-serif;
+  font-size: 7.9vw;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
 .precios #tarjeta-precios h6, #contador .contenedor .resumen-evento li .numero {
   margin: 0;
   padding: 0;
   color: #fe4918 !important;
   text-align: center;
   font-size: 4em;
+}
+
+#newsletter, #contador {
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  width: 100%;
 }
 
 @media (max-width: 1000px) {
@@ -490,6 +573,15 @@ p {
     row-gap: 20px;
   }
   body #precio #t3 {
+    grid-column: 1/3;
+    grid-row: 2/3;
+  }
+  body .testimoniales {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 10px;
+  }
+  body .testimoniales .ultimo {
     grid-column: 1/3;
     grid-row: 2/3;
   }
@@ -539,6 +631,20 @@ p {
   body #precio #t3 {
     grid-column: 1/2;
     grid-row: 3/4;
+  }
+  body .testimoniales {
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: 1fr;
+    row-gap: 30px;
+  }
+  body .testimoniales .ultimo {
+    grid-row: 3/4;
+  }
+  body .testimoniales .primero {
+    grid-row: 1/2;
+  }
+  body .testimoniales .segundo {
+    grid-row: 2/3;
   }
 }
 @media (max-width: 600px) {
@@ -668,12 +774,26 @@ p {
 }
 
 /*HERENCIAS*/
+#newsletter h1, .hero .contenido-header .informacion-evento h1 {
+  font-family: "PT Sans", sans-serif;
+  font-size: 7.9vw;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
 .precios #tarjeta-precios h6, #contador .contenedor .resumen-evento li .numero {
   margin: 0;
   padding: 0;
   color: #fe4918 !important;
   text-align: center;
   font-size: 4em;
+}
+
+#newsletter, #contador {
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  width: 100%;
 }
 
 @media (max-width: 1000px) {
@@ -712,6 +832,15 @@ p {
     row-gap: 20px;
   }
   body #precio #t3 {
+    grid-column: 1/3;
+    grid-row: 2/3;
+  }
+  body .testimoniales {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 10px;
+  }
+  body .testimoniales .ultimo {
     grid-column: 1/3;
     grid-row: 2/3;
   }
@@ -761,6 +890,20 @@ p {
   body #precio #t3 {
     grid-column: 1/2;
     grid-row: 3/4;
+  }
+  body .testimoniales {
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: 1fr;
+    row-gap: 30px;
+  }
+  body .testimoniales .ultimo {
+    grid-row: 3/4;
+  }
+  body .testimoniales .primero {
+    grid-row: 1/2;
+  }
+  body .testimoniales .segundo {
+    grid-row: 2/3;
   }
 }
 @media (max-width: 600px) {
@@ -847,12 +990,26 @@ p {
 }
 
 /*HERENCIAS*/
+#newsletter h1, .hero .contenido-header .informacion-evento h1 {
+  font-family: "PT Sans", sans-serif;
+  font-size: 7.9vw;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
 .precios #tarjeta-precios h6, #contador .contenedor .resumen-evento li .numero {
   margin: 0;
   padding: 0;
   color: #fe4918 !important;
   text-align: center;
   font-size: 4em;
+}
+
+#newsletter, #contador {
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  width: 100%;
 }
 
 @media (max-width: 1000px) {
@@ -891,6 +1048,15 @@ p {
     row-gap: 20px;
   }
   body #precio #t3 {
+    grid-column: 1/3;
+    grid-row: 2/3;
+  }
+  body .testimoniales {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 10px;
+  }
+  body .testimoniales .ultimo {
     grid-column: 1/3;
     grid-row: 2/3;
   }
@@ -940,6 +1106,20 @@ p {
   body #precio #t3 {
     grid-column: 1/2;
     grid-row: 3/4;
+  }
+  body .testimoniales {
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: 1fr;
+    row-gap: 30px;
+  }
+  body .testimoniales .ultimo {
+    grid-row: 3/4;
+  }
+  body .testimoniales .primero {
+    grid-row: 1/2;
+  }
+  body .testimoniales .segundo {
+    grid-row: 2/3;
   }
 }
 @media (max-width: 600px) {
@@ -991,11 +1171,7 @@ p {
 }
 #contador {
   background-image: url(../img/bg-resumen-editado.jpg);
-  background-size: cover;
-  background-position: center center;
-  background-attachment: fixed;
   height: 780px;
-  width: 100%;
 }
 #contador .contenedor {
   display: flex;
@@ -1019,13 +1195,47 @@ p {
   font-size: 2em;
   text-align: center;
 }
+#newsletter {
+  background-image: url(../img/bg-newsletter.jpg);
+  background-position: top !important;
+  height: 450px;
+}
+#newsletter .nl {
+  text-align: center;
+  border: 1px solid black;
+  height: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-evenly;
+}
+#newsletter .nl p {
+  text-align: center;
+}
+#newsletter .nl button {
+  width: 20%;
+  align-self: center;
+}
 /*HERENCIAS*/
+.hero .contenido-header .informacion-evento h1, #newsletter h1 {
+  font-family: "PT Sans", sans-serif;
+  font-size: 7.9vw;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
 .precios #tarjeta-precios h6, #contador .contenedor .resumen-evento li .numero {
   margin: 0;
   padding: 0;
   color: #fe4918 !important;
   text-align: center;
   font-size: 4em;
+}
+
+#contador, #newsletter {
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  width: 100%;
 }
 
 @media (max-width: 1000px) {
@@ -1064,6 +1274,15 @@ p {
     row-gap: 20px;
   }
   body #precio #t3 {
+    grid-column: 1/3;
+    grid-row: 2/3;
+  }
+  body .testimoniales {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 10px;
+  }
+  body .testimoniales .ultimo {
     grid-column: 1/3;
     grid-row: 2/3;
   }
@@ -1113,6 +1332,20 @@ p {
   body #precio #t3 {
     grid-column: 1/2;
     grid-row: 3/4;
+  }
+  body .testimoniales {
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: 1fr;
+    row-gap: 30px;
+  }
+  body .testimoniales .ultimo {
+    grid-row: 3/4;
+  }
+  body .testimoniales .primero {
+    grid-row: 1/2;
+  }
+  body .testimoniales .segundo {
+    grid-row: 2/3;
   }
 }
 @media (max-width: 600px) {
@@ -1226,12 +1459,26 @@ p {
 }
 
 /*HERENCIAS*/
+.hero .contenido-header .informacion-evento h1, #newsletter h1 {
+  font-family: "PT Sans", sans-serif;
+  font-size: 7.9vw;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
 #contador .contenedor .resumen-evento li .numero, .precios #tarjeta-precios h6 {
   margin: 0;
   padding: 0;
   color: #fe4918 !important;
   text-align: center;
   font-size: 4em;
+}
+
+#contador, #newsletter {
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  width: 100%;
 }
 
 @media (max-width: 1000px) {
@@ -1270,6 +1517,15 @@ p {
     row-gap: 20px;
   }
   body #precio #t3 {
+    grid-column: 1/3;
+    grid-row: 2/3;
+  }
+  body .testimoniales {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 10px;
+  }
+  body .testimoniales .ultimo {
     grid-column: 1/3;
     grid-row: 2/3;
   }
@@ -1319,6 +1575,20 @@ p {
   body #precio #t3 {
     grid-column: 1/2;
     grid-row: 3/4;
+  }
+  body .testimoniales {
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: 1fr;
+    row-gap: 30px;
+  }
+  body .testimoniales .ultimo {
+    grid-row: 3/4;
+  }
+  body .testimoniales .primero {
+    grid-row: 1/2;
+  }
+  body .testimoniales .segundo {
+    grid-row: 2/3;
   }
 }
 @media (max-width: 600px) {
@@ -1374,6 +1644,251 @@ p {
 #localizacion .mapa {
   width: 100%;
   margin: 0 auto;
+}
+
+/*HERENCIAS*/
+.hero .contenido-header .informacion-evento h1, #newsletter h1 {
+  font-family: "PT Sans", sans-serif;
+  font-size: 7.9vw;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#contador .contenedor .resumen-evento li .numero, .precios #tarjeta-precios h6 {
+  margin: 0;
+  padding: 0;
+  color: #fe4918 !important;
+  text-align: center;
+  font-size: 4em;
+}
+
+#contador, #newsletter {
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  width: 100%;
+}
+
+@media (max-width: 1000px) {
+  body .site-header .hero .contenido-header .redes-sociales {
+    width: 60%;
+  }
+  body .site-header .hero .contenido-header .informacion-evento .fechaciudad {
+    width: 90%;
+  }
+  body .site-header .hero .contenido-header .informacion-evento h1 {
+    font-size: 11.5vw;
+  }
+  body .site-header .hero .contenido-header .informacion-evento p {
+    font-size: 17px;
+  }
+  body #barra #contenedor-barra {
+    padding: 0 20px;
+  }
+  body #barra #contenedor-barra .logo img {
+    width: 350px;
+  }
+  body #barra #contenedor-barra #navegacion-principal {
+    text-align: center;
+  }
+  body #barra #contenedor-barra #navegacion-principal ul {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    flex-wrap: nowrap;
+  }
+  body #barra #contenedor-barra #navegacion-principal ul li a {
+    font-size: 18px;
+  }
+  body #precio .precios {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 20px;
+  }
+  body #precio #t3 {
+    grid-column: 1/3;
+    grid-row: 2/3;
+  }
+  body .testimoniales {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 10px;
+  }
+  body .testimoniales .ultimo {
+    grid-column: 1/3;
+    grid-row: 2/3;
+  }
+}
+@media (max-width: 786px) {
+  body #barra #contenedor-barra {
+    flex-grow: 1;
+    flex-wrap: wrap;
+    height: auto;
+    align-content: flex-start;
+  }
+  body #barra #contenedor-barra .logo img {
+    width: 400px;
+  }
+  body #barra #contenedor-barra #menu-movil {
+    display: block !important;
+    margin: 0 auto;
+  }
+  body #barra #contenedor-barra #navegacion-principal {
+    display: none;
+    align-self: flex-start;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-left: 80px;
+  }
+  body #barra #contenedor-barra #navegacion-principal ul {
+    flex-direction: column;
+  }
+  body #programa {
+    width: 50%;
+  }
+  body .detalle-evento h3 {
+    font-size: 24px !important;
+  }
+  body #precio .precios {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+  body #precio #t1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  body #precio #t2 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+  body #precio #t3 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
+  body .testimoniales {
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: 1fr;
+    row-gap: 30px;
+  }
+  body .testimoniales .ultimo {
+    grid-row: 3/4;
+  }
+  body .testimoniales .primero {
+    grid-row: 1/2;
+  }
+  body .testimoniales .segundo {
+    grid-row: 2/3;
+  }
+}
+@media (max-width: 600px) {
+  body .site-header .hero .contenido-header .redes-sociales {
+    width: 80%;
+  }
+  body .site-header .hero .contenido-header .informacion-evento .fechaciudad {
+    width: 90%;
+  }
+  body .site-header .hero .contenido-header .informacion-evento h1 {
+    font-size: 15.5vw;
+  }
+  body .site-header .hero .contenido-header .informacion-evento p {
+    font-size: 16px;
+  }
+  body #barra #contenedor-barra {
+    padding: 0 10px;
+  }
+  body #barra #contenedor-barra .logo img {
+    width: 250px;
+  }
+  body #barra #contenedor-barra #menu-movil {
+    width: 10%;
+  }
+  body #barra #contenedor-barra #menu-movil .menu {
+    width: 40px;
+    margin-top: 8px;
+  }
+  body #barra #contenedor-barra #navegacion-principal {
+    margin-top: 25px;
+    margin-left: 40px;
+  }
+  body #programa {
+    width: 95%;
+  }
+  body .contenedor-grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+  body #contador .contenedor .resumen-evento {
+    flex-flow: column nowrap;
+  }
+  body #contador .contenedor .resumen-evento li {
+    padding: 0;
+  }
+  body #contador .contenedor .resumen-evento li .numero {
+    font-size: 3em;
+  }
+}
+.testimoniales {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.testimoniales blockquote {
+  height: 350px;
+  width: 300px;
+  margin: 0 auto;
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 200px 135px;
+}
+.testimoniales blockquote .testimonial {
+  width: 100%;
+  grid-column: 1/3;
+  grid-row: 1/2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0 20px 40px;
+  position: relative;
+  color: #5d5d5d;
+}
+.testimoniales blockquote .testimonial::before {
+  position: absolute;
+  content: "“";
+  left: 3px;
+  top: -35px;
+  margin: 0;
+  padding: 0;
+  font-size: 6rem;
+  color: #fe4918;
+}
+.testimoniales blockquote .imagen-testimonial {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.testimoniales blockquote .imagen-testimonial img {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+}
+.testimoniales blockquote .autor-testimonial {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+}
+.testimoniales blockquote .autor-testimonial h6,
+.testimoniales blockquote .autor-testimonial p {
+  margin-left: -20px;
+  line-height: 10px;
+  color: #fe4918;
+  font-weight: bold;
+}
+.testimoniales blockquote .autor-testimonial p {
+  font-size: 14px;
+  color: #5d5d5d;
 }
 
 body {

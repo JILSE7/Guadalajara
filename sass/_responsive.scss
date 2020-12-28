@@ -54,6 +54,15 @@
                 grid-row: 2/3;
             }
         }
+        .testimoniales {
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            row-gap: 10px;
+            .ultimo {
+                grid-column: 1/3;
+                grid-row: 2/3;
+            }
+        }
     }
 }
 
@@ -110,6 +119,20 @@
             #t3 {
                 grid-column: 1/2;
                 grid-row: 3/4;
+            }
+        }
+        .testimoniales {
+            grid-template-rows: repeat(3, 1fr);
+            grid-template-columns: 1fr;
+            row-gap: 30px;
+            .ultimo {
+                grid-row: 3/4;
+            }
+            .primero {
+                grid-row: 1/2;
+            }
+            .segundo {
+                grid-row: 2/3;
             }
         }
     }

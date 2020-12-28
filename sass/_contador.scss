@@ -2,11 +2,8 @@
 @import '../sass/responsive';
 #contador {
     background-image: url(../img/bg-resumen-editado.jpg);
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
     height: 780px;
-    width: 100%;
+    @extend %parallax;
     .contenedor {
         display: flex;
         justify-content: center;
@@ -31,5 +28,30 @@
                 }
             }
         }
+    }
+}
+
+#newsletter {
+    @extend %parallax;
+    background-image: url(../img/bg-newsletter.jpg);
+    background-position: top !important;
+    height: 450px;
+    .nl {
+        text-align: center;
+        border: $prueba;
+        height: 100%;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-evenly;
+        p {
+            text-align: center
+        }
+        button {
+            width: 20%;
+            align-self: center
+        }
+    }
+    h1 {
+        @extend %GDLWEBCAM;
     }
 }

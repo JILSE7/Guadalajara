@@ -7,10 +7,24 @@ sans-serif;
 
 /*HERENCIAS*/
 
+%GDLWEBCAM {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 7.9vw;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
 %NUMERO {
     margin: 0;
     padding: 0;
     color: $naranja !important;
     text-align: center;
     font-size: 4em;
+}
+
+%parallax {
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    width: 100%;
 }
